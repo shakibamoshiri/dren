@@ -1,9 +1,9 @@
-import std.stdio:		writeln;
-import std.file:		dirEntries, SpanMode;
+import std.stdio:	writeln;
+import std.file:	dirEntries, SpanMode;
 import std.algorithm:	map, filter, each;
-import std.regex:		regex, matchFirst, replaceFirst;
-import std.array:		array, empty;
-import std.file:		rename;
+import std.regex:	regex, matchFirst, replaceFirst;
+import std.array:	array, empty;
+import std.file:	rename;
 
 int main( string[] args ){
 	
